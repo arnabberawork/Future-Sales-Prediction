@@ -1,0 +1,39 @@
+Estimator,Type,Data name,MAE,MSE,RMSE,R2
+LinearRegression(),LR_Base,X_test,80634.85486893044,15617707793.94916,124970.82777172104,0.9512146409119988
+LinearRegression(),LR_RFE,X_test_rfe,83572.14414078226,16985638960.032902,130328.9643940782,0.9469416058401736
+LinearRegression(),LR_Polynominal,X_test_poly,374036847813556.06,2.526685232666484e+31,5026614400037548.0,-7.892659281648322e+19
+"Ridge(alpha=0.01, random_state=42)",Ridge,X_test,80628.69166722156,15616821487.80536,124967.28166926478,0.9512174094849584
+"Ridge(alpha=0.01, random_state=42, solver='lsqr')",Ridge,X_test,80644.7007924064,15616574642.775995,124966.29402673343,0.9512181805599172
+"Lasso(alpha=10, random_state=42)",Lasso,X_test,80594.69049536405,15628915244.89943,125015.65999865548,0.9511796319640607
+"DecisionTreeRegressor(criterion='absolute_error', max_depth=20,
+                      min_samples_leaf=2, min_samples_split=10,
+                      random_state=42)",Decision_Tree,X_test,116203.48751126126,53631442674.77355,231584.6339349257,0.8324703455964215
+"RandomForestRegressor(max_depth=20, min_samples_leaf=2, min_samples_split=10,
+                      n_estimators=50, random_state=42)",Random_Forest,X_test,132442.27495448157,44586647540.26465,211155.5055883333,0.8607237605236351
+"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=100, n_jobs=None,
+             num_parallel_tree=None, random_state=42, ...)",XGBoost,X_test,68478.859231067,13147834161.691486,114664.0055191318,0.9589298366143004
+"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=100, n_jobs=None,
+             num_parallel_tree=None, random_state=42, ...)",XGBoost,X_test,68066.87742011543,12143891395.248652,110199.32574770434,0.9620658735417994
+"KerasRegressorCustom(batch_size=16,
+                     build_fn=<function create_ann_model at 0x7eafc5631fc0>)",ANN,X_test,83505.09168690174,15402778411.299187,124107.93049317673,0.9518860203006697
+"KerasRegressorCustom(batch_size=16,
+                     build_fn=<function create_lstm_model at 0x7eafc54cf2e0>,
+                     learning_rate=0.001, neurons=32)",LSTM,X_test_lstm,1042232.6349965191,1406379911173.0923,1185908.8966582096,-3.3931382175886684
