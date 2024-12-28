@@ -89,10 +89,7 @@ Results
 
 ## Acknowledgements
 
-- The project reference course materieals from upGrads curriculm .
-- The project references from presentation in upGrads module given by [Alankar Gupta](https://www.linkedin.com/in/alankar-gupta-898a9659/)
-- The project references insights and inferences from presentation in upGrads live class given by [Dr. Apurva Kulkarni] (https://www.linkedin.com/in/dr-apurva-kulkarni-33a074189/)
-- The project references from presentation in upGrads live class given by [Amit Pandey](https://www.linkedin.com/in/amitpandeyprofile/)
+- The project reference course materieals from IIITB and Upgrad curriculm .
 
 ## Glossary
 
