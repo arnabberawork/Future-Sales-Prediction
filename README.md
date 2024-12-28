@@ -39,13 +39,16 @@ Machine Learning: scikit-learn, xgboost
 Deep Learning: tensorflow, keras
 Model Saving: pickle
 Versions:
-Python: 3.12.3
+Python: 3.10.12
 Numpy: 1.26.4
 Pandas: 2.2.2
 Seaborn: 0.13.2
-Matplotlib: 3.9.2
-Scikit-learn: 1.5.1
+Matplotlib: 3.8.0
+Scikit-learn: 1.6.0
 XGBoost: 2.1.3
+Tensorflow: 2.17.1
+Keras: 3.5.0
+Pickle: 4.0
 
 ## Steps
 1. Load Data
